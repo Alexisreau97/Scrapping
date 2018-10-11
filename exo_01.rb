@@ -26,8 +26,8 @@ def get_all_the_email_of_val_doise_townhalls(url_city)
 end
 
 def perform
-  get_the_email_of_a_townhal_from_its_webpage('http://annuaire-des-mairies.com/95/vaureal.html')
-  get_all_the_urls_of_val_doise_townhalls('http://annuaire-des-mairies.com/val-d-oise.html')
+# get_the_email_of_a_townhal_from_its_webpage('http://annuaire-des-mairies.com/95/vaureal.html')
+# get_all_the_urls_of_val_doise_townhalls('http://annuaire-des-mairies.com/val-d-oise.html')
   get_all_the_email_of_val_doise_townhalls(get_all_the_urls_of_val_doise_townhalls('http://annuaire-des-mairies.com/val-d-oise.html'))
 end
 
