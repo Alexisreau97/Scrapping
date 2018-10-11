@@ -19,4 +19,8 @@ def crypto_name(url)
   puts crypto_hash
 end
 
-crypto_name("https://coinmarketcap.com/all/views/all/")
+def perform
+  crypto_name("https://coinmarketcap.com/all/views/all/")
+end
+
+perform
